@@ -1,0 +1,52 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: hsl(0, 0%, 95%);
+}
+.container {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+h2{
+  text-align: center;
+  color: hsl(0, 0%, 30%);
+  font-size: 25px;
+}
+form{
+  text-align: center;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px hsla(0, 0%, 0.3%);
+}
+
+input{
+  display: block;
+  border: 2px solid hsl(0, 25%, 90%);
+  margin-bottom: 10px;
+  font-size: 20px;
+  width: 50%;
+  margin: 0 auto;
+  max-width: 350px;
+}
+
+button{
+  background: hsl(120, 100%, 40%);
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#total{
+  font-size: 18px;
+}
+#total-ammount{
+  color: green;
+  font-weight: bold;
+}
+label{
+  display: block;
+}
+
